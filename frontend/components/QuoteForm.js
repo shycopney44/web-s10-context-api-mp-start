@@ -1,4 +1,5 @@
-import React, { useReducer } from 'react'
+import React, { useReducer, useContext } from 'react'
+import { QuotesContext } from '../context/quotesContext'
 
 const CHANGE_INPUT = 'CHANGE_INPUT'
 const RESET_FORM = 'RESET_FORM'
