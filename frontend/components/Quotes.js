@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
 import { QuotesContext } from '../context/quotesContext'
-import { use } from 'react'
 
 export default function Quotes(props) {
   const {
